@@ -1,0 +1,27 @@
+:root{
+  --background-color:#11182B;
+  --text-color:#FFFFFF;
+  --background-sub:#223157;
+  --background-sub-2:#434E6A;
+  --rainbow-orange:#ff8036;
+  --rainbow-orange-2:#fdb644;
+  --rainbow-green:#e0f162;
+  --rainbow-green-2:#5deb5d;
+  --rainbow-blue:#6bf4e9;
+  --rainbow-blue-2:#51b0e9;
+  --rainbow-purple:#ec67ec;
+}
+
+html{
+  background-color: var( --background-color );
+  color:var(--text-color);
+  font-family: 'Roboto',sans-serif;
+}
+
+body{
+margin:0;
+}
+
+.main-container{
+  background-color: red;
+}
