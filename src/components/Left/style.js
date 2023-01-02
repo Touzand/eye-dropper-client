@@ -51,9 +51,11 @@ export const TopHeader = styled.div`
 export const Title = styled.h1`
   font-size: 3rem;
   margin: 2rem 0;
+  cursor:default;
 
   span:hover {
     text-decoration: underline;
+
   }
 
   span:nth-child(1) {
@@ -127,7 +129,7 @@ export const ChromeStoreButtonContainer = styled.div`
       height: 3rem;
       position: relative;
       animation: ${SidetoSide} linear 2s infinite;
-      //animation-timing-function:cubic-bezier(.53,.23,.83,.54);
+      animation-timing-function:cubic-bezier(.75,-0.5,0,1.75);
     }
   }
 `;
