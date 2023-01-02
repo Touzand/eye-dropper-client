@@ -1,5 +1,8 @@
-import { Container,TopHeader, Title, Quote, ChromeStoreButton } from "./style.js";
+import { Container,TopHeader, Title, Quote, ChromeStoreButton, RightsReserved, FooterLeft, MadeBy, ChromeStoreButtonContainer } from "./style.js";
 import {FiArrowUpRight} from 'react-icons/fi'
+import {FcGoogle} from 'react-icons/fc'
+import {TiArrowLeftThick} from 'react-icons/ti'
+import {SiGooglechrome} from 'react-icons/si'
 
 const LeftContainer = () => {
   return (
@@ -10,6 +13,7 @@ const LeftContainer = () => {
       </TopHeader>
       <Title>
         User-friendly
+        <br/>
         <span> e</span>
         <span>y</span>
         <span>e</span>
@@ -26,9 +30,21 @@ const LeftContainer = () => {
       <Quote>
         “Even when using a different browser, it functions properly.”
       </Quote>
-      <ChromeStoreButton>
-        get min Eye-dropper for Chrome
+      <ChromeStoreButtonContainer>
+        <ChromeStoreButton href='https://touzand.github.io/portafolio' target='_blank'>
+        <SiGooglechrome/>
       </ChromeStoreButton>
+      <div>
+      <TiArrowLeftThick/>
+        <h2>get Min Eye-dropper for Chrome</h2>
+      </div>
+      </ChromeStoreButtonContainer>
+      <FooterLeft>
+        <RightsReserved>© 2022 All rights reserved</RightsReserved>
+        <MadeBy>
+          Made by <a href='https://touzand.github.io/portafolio' target='_blank'>Alan G. Alonso ( Touzand )</a> a few seconds ago
+        </MadeBy>
+      </FooterLeft> 
     </Container>
   );
 };

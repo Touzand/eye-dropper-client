@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  max-width:1300px;
+  max-width:1000px;
   margin:auto;
   display:grid;
   align-items:center;
