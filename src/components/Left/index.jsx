@@ -14,7 +14,7 @@ const LeftContainer = () => {
       <Title>
         User-friendly
         <br/>
-        <span> e</span>
+        <span> E</span>
         <span>y</span>
         <span>e</span>
         <span>-</span>

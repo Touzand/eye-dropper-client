@@ -2,6 +2,7 @@ import styled, { keyframes } from "styled-components";
 
 export const Container = styled.div`
   display: flex;
+  //justify-content:center;
   flex-direction: column;
 `;
 
@@ -178,7 +179,7 @@ export const MadeBy = styled.p`
 `;
 
 export const FooterLeft = styled.div`
-  position: absolute;
+  position: fixed;
   bottom: 1rem;
 
   p {
