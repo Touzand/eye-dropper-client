@@ -148,8 +148,8 @@ export const ChromeStoreButton = styled.a`
   font-weight: bold;
   font-size: var(--text-size-small);
   transition: all 0.9s ease;
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   border-radius: 1rem;
 
   svg {

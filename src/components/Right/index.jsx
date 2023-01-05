@@ -1,4 +1,4 @@
-import { Container } from "./style.js";
+import { Container, P, PContainer } from "./style.js";
 
 const RightContainer = () => {
   return (
@@ -6,23 +6,17 @@ const RightContainer = () => {
   <video loop muted autoPlay>
     <source src="/assets/primera.mp4" type='video/mp4'/>
   </video>
-      <h1>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet.
-      </h1>
+  <PContainer>
+  <P>You can pick any color on current webpage and save it to your clipboard</P>
+  </PContainer>
   <video loop muted autoPlay>
     <source src="/assets/segunda.mp4" type='video/mp4'/>
   </video>
-      <h1>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet.
-      </h1>
+  <PContainer>
+    <P>Safe : refuses to collect your data. you are not tracked.</P>
+  <P>Open : Browser extension that is open source and free.</P>
+  </PContainer>
+  <h2>So, if u need it, install it</h2>
     </Container>
   );
 };
