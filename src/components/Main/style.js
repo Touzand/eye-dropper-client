@@ -7,6 +7,7 @@ export const Main = styled.div`
   align-items:center;
   grid-template-columns:1fr 1fr;
   height:100vh;
+  gap:8rem;
 
   @media(max-width:900px){
   grid-template-columns:1fr;

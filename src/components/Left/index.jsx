@@ -40,7 +40,7 @@ const LeftContainer = () => {
       </div>
       </ChromeStoreButtonContainer>
       <FooterLeft>
-        <RightsReserved>© 2022 All rights reserved</RightsReserved>
+        <RightsReserved>© 2022-2023 All rights reserved</RightsReserved>
         <MadeBy>
           Made by <a href='https://touzand.github.io/portafolio' target='_blank'>Alan G. Alonso ( Touzand )</a> a few seconds ago
         </MadeBy>
