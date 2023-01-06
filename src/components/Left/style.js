@@ -30,7 +30,6 @@ export const TopHeader = styled.div`
     background-color: #16223f;
     padding: 0.5rem;
     border-radius: 0.25rem;
-    height: 20px;
     color: var(--text-color);
     text-decoration: none;
     position: relative;
@@ -153,13 +152,12 @@ export const ChromeStoreButton = styled.a`
   font-weight: bold;
   font-size: var(--text-size-small);
   transition: all 0.9s ease;
-  width: 100px;
-  height: 100px;
   border-radius: 1rem;
+  padding:0 1rem;
 
   svg {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     transition: transform 0.9s ease;
   }
 

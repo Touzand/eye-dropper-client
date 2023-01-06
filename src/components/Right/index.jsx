@@ -1,4 +1,7 @@
-import { Container, P, PContainer } from "./style.js";
+import { Container, LinkContainer, P, PContainer, InstallIt } from "./style.js";
+import {FiGithub} from 'react-icons/fi'
+import {AiFillLinkedin} from 'react-icons/ai'
+import {SiGooglemybusiness} from 'react-icons/si'
 import '../../index.css'
 
 const RightContainer = () => {
@@ -14,10 +17,37 @@ const RightContainer = () => {
     <source src="/assets/segunda.mp4" type='video/mp4'/>
   </video>
   <PContainer>
-    <P>Safe : refuses to collect your data. you are not tracked.</P>
-  <P>Open : Browser extension that is open source and free.</P>
+    <P><b>Safe</b> : refuses to collect your data. you are not tracked.</P>
+  <P><b>Open</b> : Browser extension that is <i>open source</i> and free.</P>
   </PContainer>
-  <h2>So, if u need it, install it</h2>
+  <InstallIt>So, if u need it, <span>install it</span></InstallIt>
+  <a href='https://touzand.github.io/portafolio'>
+  <LinkContainer>
+      <FiGithub/>
+    <div>
+      <span>Github</span>
+    <p>Report issues and feature requests.</p>
+    </div>
+  </LinkContainer>
+  </a>
+  <a href='https://touzand.github.io/portafolio'>
+  <LinkContainer>
+      <AiFillLinkedin/>
+    <div>
+      <span>LinkedIn</span>
+    <p>Follow the news.</p>
+    </div>
+  </LinkContainer>
+  </a>
+  <a href='https://touzand.github.io/portafolio'>
+  <LinkContainer>
+      <SiGooglemybusiness/>
+    <div>
+      <span>Chrome Web Store</span>
+    <p>Download and leave review.</p>
+    </div>
+  </LinkContainer>
+  </a>
     </Container>
   );
 };
