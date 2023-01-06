@@ -4,6 +4,11 @@ export const Container = styled.div`
   display: flex;
   //justify-content:center;
   flex-direction: column;
+
+  @media (min-width: 800px) {
+    position: sticky;
+    top: 3rem;
+  }
 `;
 
 export const TopHeader = styled.div`

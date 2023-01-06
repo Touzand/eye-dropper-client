@@ -1,12 +1,12 @@
 import { Container,TopHeader, Title, Quote, ChromeStoreButton, RightsReserved, FooterLeft, MadeBy, ChromeStoreButtonContainer } from "./style.js";
 import {FiArrowUpRight} from 'react-icons/fi'
-import {FcGoogle} from 'react-icons/fc'
 import {TiArrowLeftThick} from 'react-icons/ti'
 import {SiGooglechrome} from 'react-icons/si'
+import '../../index.css'
 
 const LeftContainer = () => {
   return (
-    <Container>
+    <Container className="flex-item">
       <TopHeader>
         <img src="http://imgfz.com/i/OEygR5o.png" alt="Logo" className="top-header-logo"/>
         <a className="to-github" href='https://github.com/touzand/min-eye-dropper' target='_blank'>Updates and new features on github <FiArrowUpRight/></a>

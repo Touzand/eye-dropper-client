@@ -1,16 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100vh;
-  overflow-y: auto;
-
   video {
     width: 100%;
     filter:contrast(105%);
   }
 
   video:nth-child(1){
-  padding-top:5rem;
   }
 
   h2{

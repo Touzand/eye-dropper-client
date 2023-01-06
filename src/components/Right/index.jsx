@@ -1,8 +1,9 @@
 import { Container, P, PContainer } from "./style.js";
+import '../../index.css'
 
 const RightContainer = () => {
   return (
-<Container>
+<Container className="flex-item">
   <video loop muted autoPlay>
     <source src="/assets/primera.mp4" type='video/mp4'/>
   </video>

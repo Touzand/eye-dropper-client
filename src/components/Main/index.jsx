@@ -1,11 +1,8 @@
-import {Main} from './style.js'
+import { Main } from "./style.js";
+import '../../index.css'
 
-const MainContainer = props => {
-return (
-<Main>
-{props.children}
-</Main>
-);
+const MainContainer = (props) => {
+  return <Main className="flex">{props.children}</Main>;
 };
 
-export default MainContainer
+export default MainContainer;
