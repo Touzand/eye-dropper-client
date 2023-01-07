@@ -24,7 +24,8 @@ const LeftContainer = () => {
         <span>p</span>
         <span>p</span>
         <span>e</span>
-        <span>r </span>
+        <span>r</span>
+        <span> </span>
         that is extremely simple to use
       </Title>
       <Quote>

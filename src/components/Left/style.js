@@ -167,7 +167,8 @@ export const ChromeStoreButton = styled.a`
   }
 `;
 
-export const RightsReserved = styled.p``;
+export const RightsReserved = styled.p`
+`;
 
 export const MadeBy = styled.p`
   a {
@@ -187,5 +188,9 @@ export const FooterLeft = styled.div`
 
   p {
     margin: 0;
+  }
+
+  @media (max-width: 800px) {
+    display:none;
   }
 `;

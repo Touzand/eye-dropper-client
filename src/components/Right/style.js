@@ -47,6 +47,7 @@ const Rainbow = keyframes`
 
 
 export const InstallIt = styled.h2`
+  text-align:center;
 
   span{
     animation:${Rainbow} 10s ease-in infinite both;
@@ -86,3 +87,35 @@ export const LinkContainer = styled.div`
   }
 
 `
+
+export const RightsReserved = styled.p`
+  @media (min-width: 800px) {
+    display:none;
+  }
+`;
+
+export const MadeBy = styled.p`
+  @media (min-width: 800px) {
+    display:none;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--rainbow-orange);
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+`;
+
+export const FooterRight = styled.div`
+  p {
+    margin: 0;
+  }
+
+  @media (min-width: 800px) {
+    display:none;
+  }
+`;
