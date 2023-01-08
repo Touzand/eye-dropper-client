@@ -11,23 +11,26 @@ import {
 import { FiGithub } from "react-icons/fi";
 import { AiFillLinkedin } from "react-icons/ai";
 import { SiGooglemybusiness } from "react-icons/si";
+import firstVidUrl from "../../../public/assets/test-01.mp4";
+import secondVidUrl from "../../../public/assets/test-02.mp4";
 import "../../index.css";
+
+setTimeout(() => {
+  document.getElementById("first-vid").src = firstVidUrl;
+  document.getElementById("second-vid").src = secondVidUrl;
+}, 1000);
 
 const RightContainer = () => {
   return (
     <Container className="flex-item">
-      <video loop muted autoPlay>
-        <source src="/assets/primera.mp4" type="video/mp4" />
-      </video>
+      <video loop muted autoPlay id="first-vid" src=""></video>
       <PContainer>
         <P>
           You can pick any color on current webpage and save it to your
           clipboard
         </P>
       </PContainer>
-      <video loop muted autoPlay>
-        <source src="/assets/segunda.mp4" type="video/mp4" />
-      </video>
+      <video loop muted autoPlay id="second-vid" src=""></video>
       <PContainer>
         <P>
           <b>Safe</b> : refuses to collect your data. you are not tracked.
