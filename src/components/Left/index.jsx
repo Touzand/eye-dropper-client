@@ -64,7 +64,7 @@ const LeftContainer = () => {
         </div>
       </ChromeStoreButtonContainer>
       <FooterLeft>
-        <RightsReserved>© 2022-2023 All rights reserved</RightsReserved>
+        <RightsReserved>© 2022-2023 All rights reserved (<a href='/eye-dropper-client/privacy-policies'>Privacy Police</a>)</RightsReserved>
         <MadeBy>
           Made by{" "}
           <a href="https://touzand.github.io/portafolio" target="_blank">

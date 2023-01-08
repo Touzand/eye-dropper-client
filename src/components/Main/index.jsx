@@ -1,8 +1,13 @@
 import { Main } from "./style.js";
+import LeftContainer from "../Left";
+import RightContainer from "../Right";
 import '../../index.css'
 
 const MainContainer = (props) => {
-  return <Main className="flex">{props.children}</Main>;
+return <Main className="flex">
+    <LeftContainer/>
+    <RightContainer/>
+  </Main>;
 };
 
 export default MainContainer;

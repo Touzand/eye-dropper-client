@@ -5,6 +5,6 @@ export const Main = styled.div`
   padding-top:2rem;
 
   @media (min-width: 800px) {
-  margin:3rem 0;
+  //margin:3rem 0;
   }
 `

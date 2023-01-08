@@ -168,6 +168,16 @@ export const ChromeStoreButton = styled.a`
 `;
 
 export const RightsReserved = styled.p`
+
+  a {
+    text-decoration: none;
+    color: var(--rainbow-orange);
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `;
 
 export const MadeBy = styled.p`
