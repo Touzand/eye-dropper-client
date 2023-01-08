@@ -1,3 +1,8 @@
+import { FiArrowUpRight } from "react-icons/fi";
+import { TiArrowLeftThick } from "react-icons/ti";
+import { SiGooglechrome } from "react-icons/si";
+import "../../../index.css";
+
 import {
   Container,
   TopHeader,
@@ -9,10 +14,6 @@ import {
   MadeBy,
   ChromeStoreButtonContainer,
 } from "./style.js";
-import { FiArrowUpRight } from "react-icons/fi";
-import { TiArrowLeftThick } from "react-icons/ti";
-import { SiGooglechrome } from "react-icons/si";
-import "../../index.css";
 
 const LeftContainer = () => {
   return (
@@ -69,7 +70,7 @@ const LeftContainer = () => {
           Made by{" "}
           <a href="https://touzand.github.io/portafolio" target="_blank">
             Alan G. Alonso ( Touzand )
-          </a>{" "}
+          </a>
           a few seconds ago
         </MadeBy>
       </FooterLeft>

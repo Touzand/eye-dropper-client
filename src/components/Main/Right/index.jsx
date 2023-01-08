@@ -11,9 +11,10 @@ import {
 import { FiGithub } from "react-icons/fi";
 import { AiFillLinkedin } from "react-icons/ai";
 import { SiGooglemybusiness } from "react-icons/si";
-import firstVidUrl from "../../../public/assets/test-01.mp4";
-import secondVidUrl from "../../../public/assets/test-02.mp4";
-import "../../index.css";
+import firstVidUrl from "../../../../public/assets/test-01.mp4";
+import secondVidUrl from "../../../../public/assets/test-02.mp4";
+import {Link} from "react-router-dom";
+import "../../../index.css";
 
 setTimeout(() => {
   document.getElementById("first-vid").src = firstVidUrl;
@@ -70,7 +71,7 @@ const RightContainer = () => {
         </LinkContainer>
       </a>
       <FooterRight>
-        <RightsReserved>© 2022-2023 All rights reserved</RightsReserved>
+        <RightsReserved>© 2022-2023 All rights reserved (<Link to='eye-dropper-client/privacy-policies'>Privacy Police</Link>)</RightsReserved>
         <MadeBy>
           Made by{" "}
           <a href="https://touzand.github.io/portafolio" target="_blank">

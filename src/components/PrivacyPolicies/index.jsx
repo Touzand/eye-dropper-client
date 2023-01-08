@@ -7,22 +7,24 @@ const PrivacyPolice = () => {
       <Section>
         <Subtitle>Personal data</Subtitle>
         <P>
-          <strong>Min Eye-Dropper</strong> had never collected and will never
-          collect any personal data, browsing history etc.
+          <strong>Min Eye-Dropper</strong> nunca ha recopilado y nunca
+          recopilará información personal, como historial de navegación, clics,
+          etc.
         </P>
         <P>
-          In future <strong>Min Eye-Dropper</strong> may collect your picked color history and
-          extension settings (except any data which can help identify user).
-          Such data may be used for decisions about implementing or removing
-          features and getting some usefull/fun facts about picked colors. It
-          will happen only with your permission.
+          Future versions of <strong>Min Eye-Dropper</strong> may store your
+          chosen color preferences and extension settings (except any data which
+          can help identify user). Such information may be utilized to make
+          judgments about adding or removing features and to learn some
+          interesting or valuable information about the chosen colors. Only with
+          your consent will it be carried out.
         </P>
       </Section>
       <Section>
         <Subtitle>Third party services</Subtitle>
         <P>
-          Eye Dropper uses Chrome(Chromium) or WebExtensions Storage Sync API
-          and Web Storage API(localStorage) for storing color history.
+          Eye Dropper stores color history using the Web Storage API
+          (localStorage) and Chrome's (Chromium's) Storage Sync API.
         </P>
       </Section>
       <a href="/eye-dropper-client">Back to home page</a>

@@ -1,12 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainContainer from "./components/Main";
-
+import PrivacyPolice from "./components/PrivacyPolicies";
 
 const App = () => {
-return (
-<div>
-  <MainContainer/>
-</div>
-);
+  return (
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/eye-dropper-client" element={<MainContainer />} />
+          <Route path="/eye-dropper-client/privacy-policies" element={<PrivacyPolice/>} />
+        </Routes>
+      </Router>
+    </div>
+  );
 };
 
 export default App;

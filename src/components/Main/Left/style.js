@@ -193,8 +193,9 @@ export const MadeBy = styled.p`
 `;
 
 export const FooterLeft = styled.div`
-  position: fixed;
-  bottom: 1rem;
+  margin-top:2rem;
+  //position: fixed;
+  //bottom: 1rem;
 
   p {
     margin: 0;
