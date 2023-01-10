@@ -47,7 +47,7 @@ const LeftContainer = () => {
         <span>e</span>
         <span>r</span>
         <span> </span>
-        that is extremely simple to use
+        that is extremely simple to use.
       </Title>
       <Quote>
         “Even when using a different browser, it functions properly.”
@@ -65,7 +65,7 @@ const LeftContainer = () => {
         </div>
       </ChromeStoreButtonContainer>
       <FooterLeft>
-        <RightsReserved>© 2022-2023 All rights reserved (<a href='/privacy-policies'>Privacy Police</a>)</RightsReserved>
+        <RightsReserved>© 2022-2023 All rights reserved (<a href='/eye-dropper-client/#/eye-dropper-client/privacy-policies'>Privacy Police</a>)</RightsReserved>
         <MadeBy>
           Made by{" "}
           <a href="https://touzand.github.io/portafolio" target="_blank">
