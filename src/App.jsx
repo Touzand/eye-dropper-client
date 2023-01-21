@@ -7,8 +7,8 @@ const App = () => {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<MainContainer />} />
-        <Route path="/eye-dropper-client/privacy-policies" element={<PrivacyPolice />} />
+          <Route path="/eye-dropper-client/home" element={<MainContainer />} />
+          <Route path="/" element={<PrivacyPolice />} />
         </Routes>
       </Router>
     </div>

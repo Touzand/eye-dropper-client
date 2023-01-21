@@ -27,7 +27,7 @@ const PrivacyPolice = () => {
           (localStorage) and Chrome's (Chromium's) Storage Sync API.
         </P>
       </Section>
-      <a href="/eye-dropper-client/">Back to home page</a>
+      <a href="/eye-dropper-client/#/eye-dropper-client/home">Back to home page</a>
     </Container>
   );
 };

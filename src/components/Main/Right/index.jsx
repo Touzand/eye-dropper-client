@@ -16,6 +16,10 @@ import secondVidUrl from "../../../../public/assets/test-02.mp4";
 import {Link} from "react-router-dom";
 import "../../../index.css";
 
+window.onhashchange = function() {
+ window.location.reload()
+}
+
 setTimeout(() => {
   document.getElementById("first-vid").src = firstVidUrl;
   document.getElementById("second-vid").src = secondVidUrl;
