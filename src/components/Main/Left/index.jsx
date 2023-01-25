@@ -19,11 +19,6 @@ const LeftContainer = () => {
   return (
     <Container className="flex-item">
       <TopHeader>
-        <img
-          src="http://imgfz.com/i/OEygR5o.png"
-          alt="Logo"
-          className="top-header-logo"
-        />
         <a
           className="to-github"
           href="https://github.com/touzand/eye-dropper"
@@ -54,7 +49,7 @@ const LeftContainer = () => {
       </Quote>
       <ChromeStoreButtonContainer>
         <ChromeStoreButton
-          href="https://touzand.github.io/portafolio"
+          href="https://chrome.google.com/webstore/detail/min-eye-dropper/hinpodljbkkppgfdjcbjbhalockpcaai?hl=pt-br"
           target="_blank"
         >
           <SiGooglechrome />
@@ -65,7 +60,10 @@ const LeftContainer = () => {
         </div>
       </ChromeStoreButtonContainer>
       <FooterLeft>
-        <RightsReserved>© 2022-2023 All rights reserved (<a href='/eye-dropper-client/'>Privacy Police</a>)</RightsReserved>
+        <RightsReserved>
+          © 2022-2023 All rights reserved (
+          <a href="/eye-dropper-client/">Privacy Police</a>)
+        </RightsReserved>
         <MadeBy>
           Made by{" "}
           <a href="https://touzand.github.io/portafolio" target="_blank">

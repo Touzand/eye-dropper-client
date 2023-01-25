@@ -65,7 +65,7 @@ const RightContainer = () => {
           </div>
         </LinkContainer>
       </a>
-      <a href="https://touzand.github.io/portafolio" target="_blank">
+      <a href="https://chrome.google.com/webstore/detail/min-eye-dropper/hinpodljbkkppgfdjcbjbhalockpcaai?hl=pt-br" target="_blank">
         <LinkContainer>
           <SiGooglemybusiness />
           <div>
