@@ -62,7 +62,7 @@ const LeftContainer = () => {
       <FooterLeft>
         <RightsReserved>
           © 2022-2023 All rights reserved (
-          <a href="/eye-dropper-client/">Privacy Police</a>)
+          <a href="eye-dropper-client/#/eye-dropper-client/privacy-policy">Privacy Police</a>)
         </RightsReserved>
         <MadeBy>
           Made by{" "}
