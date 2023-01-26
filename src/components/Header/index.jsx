@@ -1,4 +1,5 @@
-import { HeaderContainer } from "./style";
+import { Link } from "react-router-dom";
+import { HeaderContainer, LinkPage } from "./style";
 
 const Header = () => {
   return (
@@ -11,6 +12,10 @@ const Header = () => {
             className="top-header-logo"
           />
           Min eye-dropper.
+        </div>
+        <div className="left buttons">
+          <Link to="/eye-dropper-client/privacy-policy">Privacy Police</Link>
+          <Link to="/eye-dropper-client/#/eye-dropper-client/privacy-policy">Help</Link>
         </div>
       </div>
     </HeaderContainer>

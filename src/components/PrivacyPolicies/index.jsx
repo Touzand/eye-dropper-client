@@ -1,4 +1,16 @@
-import { Container, P, Section, Subtitle, Title } from "./style";
+import {
+  Container,
+  P,
+  Section,
+  Subtitle,
+  Title,
+  LinkContainer,
+  LinkGeneralContainer,
+  MadeBy,
+} from "./style";
+import { FiGithub } from "react-icons/fi";
+import { AiFillLinkedin } from "react-icons/ai";
+import { SiGooglemybusiness } from "react-icons/si";
 
 const PrivacyPolice = () => {
   return (
@@ -27,7 +39,49 @@ const PrivacyPolice = () => {
           (localStorage) and Chrome's (Chromium's) Storage Sync API.
         </P>
       </Section>
-      <a href="/">Back to home page</a>
+      <a href="/eye-dropper-client/">Back to home page</a>
+
+      <LinkGeneralContainer>
+        <div className="sub-links">
+        <a href="https://github.com/Touzand/eye-dropper" target="_blank">
+          <LinkContainer>
+            <FiGithub />
+            <div>
+              <span>Github</span>
+              <p>Report issues and feature requests.</p>
+            </div>
+          </LinkContainer>
+        </a>
+        <a href="https://www.linkedin.com/in/alangalonso/" target="_blank">
+          <LinkContainer>
+            <AiFillLinkedin />
+            <div>
+              <span>LinkedIn</span>
+              <p>Follow the news.</p>
+            </div>
+          </LinkContainer>
+        </a>
+        <a
+          href="https://chrome.google.com/webstore/detail/min-eye-dropper/hinpodljbkkppgfdjcbjbhalockpcaai?hl=pt-br"
+          target="_blank"
+        >
+          <LinkContainer>
+            <SiGooglemybusiness />
+            <div>
+              <span>Chrome Web Store</span>
+              <p>Download and leave review.</p>
+            </div>
+          </LinkContainer>
+        </a>
+
+        </div>
+      </LinkGeneralContainer>
+        <MadeBy>
+          Made by{" "}
+          <a href="https://touzand.github.io/portafolio" target="_blank">
+            Alan G. Alonso ( Touzand )
+          </a> a few seconds ago
+        </MadeBy>
     </Container>
   );
 };
