@@ -30,10 +30,12 @@ const RightContainer = () => {
     <Container className="flex-item">
       <video loop muted autoPlay id="first-vid" src=""></video>
       <PContainer>
+        <P>A great tool for web developers is MED. You may use Min eye-dropper to click on any pixel on your screen, even those outside of your browser, and obtain the HEX value for that particular pixel's color.</P>
+
         <P>
-          You can pick any color on current webpage and save it to your
-          clipboard
+          Your browser's localStorage will immediately store the colors you choose. so that you can go between windows or tabs while maintaining access to your color pallet (with the previously selected colors)
         </P>
+
       </PContainer>
       <video loop muted autoPlay id="second-vid" src=""></video>
       <PContainer>

@@ -1,5 +1,6 @@
 :root {
   --background-color: #0d1227;
+  --background-color-2: #1a1e2b;
   --text-color: #ffffff;
   --background-sub: #223157;
   --background-sub-2: #434e6a;
@@ -59,7 +60,8 @@ body {
     align-items: start;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap:2rem;
   }
   .flex-item {
     width: 450px;

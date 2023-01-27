@@ -10,6 +10,7 @@ export const HeaderContainer = styled.header`
   padding: 0.5rem;
   font-weight: bold;
   color: whitesmoke;
+  background-color:var(--background-color-2);
 
   .sub-header {
     width: 80vw;
@@ -20,6 +21,7 @@ export const HeaderContainer = styled.header`
     .right {
       display: flex;
       align-items: center;
+      gap:.5rem;
     }
 
     .left {
@@ -34,6 +36,12 @@ export const HeaderContainer = styled.header`
   .buttons {
     display: flex;
     gap: 0.5rem;
+
+    .not-found{
+    color:grey;
+      text-decoration:line-through;
+      pointer-events:none;
+  }
 
     a {
       display: flex;

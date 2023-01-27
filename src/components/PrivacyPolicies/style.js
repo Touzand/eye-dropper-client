@@ -49,7 +49,7 @@ export const P = styled.p`
 
 export const LinkGeneralContainer = styled.div`
   width: 100vw;
-  background-color: #1a1e2b;
+  background-color: var(--background-color-2);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -11,11 +11,12 @@ const Header = () => {
             alt="Logo"
             className="top-header-logo"
           />
-          Min eye-dropper.
+          Min eye-dropper
         </div>
         <div className="left buttons">
           <Link to="/eye-dropper-client/privacy-policy">Privacy Police</Link>
-          <Link to="/eye-dropper-client/#/eye-dropper-client/privacy-policy">Help</Link>
+          <Link className="not-found" to="">Help</Link>
+          <Link className="not-found" to="">Change logs</Link>
         </div>
       </div>
     </HeaderContainer>
