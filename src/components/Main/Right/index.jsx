@@ -77,13 +77,12 @@ const RightContainer = () => {
         </LinkContainer>
       </a>
       <FooterRight>
-        <RightsReserved>© 2022-2023 All rights reserved (<Link to='/eye-dropper-client/#/eye-dropper-client/privacy-policy'>Privacy Police</Link>)</RightsReserved>
+        <RightsReserved>© 2022-2023 All rights reserved</RightsReserved>
         <MadeBy>
           Made by
           <a href="https://touzand.github.io/portafolio" target="_blank">
             Alan G. Alonso ( Touzand )
-          </a>
-          a few seconds ago
+          </a> a few seconds ago
         </MadeBy>
       </FooterRight>
     </Container>

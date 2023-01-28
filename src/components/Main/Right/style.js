@@ -13,9 +13,9 @@ export const Container = styled.div`
 
 export const P = styled.p`
   font-style: normal;
-  font-weight: unset;
+  //font-weight: bold;
   font-size: var(--font-size-small);
-  //line-height: 44px;
+  line-height: 25px;
 `;
 
 export const PContainer = styled.div`
@@ -24,7 +24,7 @@ export const PContainer = styled.div`
   margin:2rem 0;
 
   p{
-    padding:.5rem 1rem;
+    padding:1.5rem 1.5rem;
   }
 
   p:nth-child(even){
@@ -121,8 +121,9 @@ export const MadeBy = styled.p`
 `;
 
 export const FooterRight = styled.div`
+
   p {
-    margin: 0;
+  margin-bottom:.5rem;
   }
 
   @media (min-width: 800px) {

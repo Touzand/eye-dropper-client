@@ -11,7 +11,7 @@ const Header = () => {
             alt="Logo"
             className="top-header-logo"
           />
-          Min eye-dropper
+          Min eye dropper
         </div>
         <div className="left buttons">
           <Link to="/eye-dropper-client/privacy-policy">Privacy Police</Link>

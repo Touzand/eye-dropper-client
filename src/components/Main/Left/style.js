@@ -117,6 +117,7 @@ const SidetoSide = keyframes`
 export const ChromeStoreButtonContainer = styled.div`
   display: flex;
   gap: 1rem;
+  padding-bottom:2rem;
 
   div {
     display: flex;
@@ -141,7 +142,6 @@ export const ChromeStoreButtonContainer = styled.div`
 
 export const ChromeStoreButton = styled.a`
   background-color: var(--background-sub);
-  padding: 0.5rem;
   color: white;
   border: none;
   display: flex;
@@ -153,11 +153,12 @@ export const ChromeStoreButton = styled.a`
   font-size: var(--text-size-small);
   transition: all 0.9s ease;
   border-radius: 1rem;
-  padding:0 1rem;
+  //padding:0 1rem;
+  width:200px;
 
   svg {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     transition: transform 0.9s ease;
   }
 
