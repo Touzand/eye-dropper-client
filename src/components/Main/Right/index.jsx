@@ -13,12 +13,11 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { SiGooglemybusiness } from "react-icons/si";
 import firstVidUrl from "../../../../public/assets/test-01.mp4";
 import secondVidUrl from "../../../../public/assets/test-02.mp4";
-import {Link} from "react-router-dom";
 import "../../../index.css";
 
-window.onhashchange = function() {
- window.location.reload()
-}
+window.onhashchange = function () {
+  window.location.reload();
+};
 
 setTimeout(() => {
   document.getElementById("first-vid").src = firstVidUrl;
@@ -30,12 +29,19 @@ const RightContainer = () => {
     <Container className="flex-item">
       <video loop muted autoPlay id="first-vid" src=""></video>
       <PContainer>
-        <P>A great tool for web developers is <b>MED</b>. You may use Min eye-dropper to click on <b>any pixel on your screen</b>, even those <v>outside of your browser</v>, and obtain the <b>HEX value</b> for that particular pixel's color.</P>
-
         <P>
-          Your browser's <b>localStorage</b> will immediately store the colors you choose. so that you can go between windows or tabs while maintaining access to <b>your color pallet</b> (with the previously selected colors)
+          A great tool for web developers is <b>MED</b>. You may use Min
+          eye-dropper to click on <b>any pixel on your screen</b>, even those{" "}
+          <v>outside of your browser</v>, and obtain the <b>HEX value</b> for
+          that particular pixel's color.
         </P>
 
+        <P>
+          Your browser's <b>localStorage</b> will immediately store the colors
+          you choose. so that you can go between windows or tabs while
+          maintaining access to <b>your color pallet</b> (with the previously
+          selected colors)
+        </P>
       </PContainer>
       <video loop muted autoPlay id="second-vid" src=""></video>
       <PContainer>
@@ -67,7 +73,10 @@ const RightContainer = () => {
           </div>
         </LinkContainer>
       </a>
-      <a href="https://chrome.google.com/webstore/detail/min-eye-dropper/hinpodljbkkppgfdjcbjbhalockpcaai?hl=pt-br" target="_blank">
+      <a
+        href="https://chrome.google.com/webstore/detail/min-eye-dropper/hinpodljbkkppgfdjcbjbhalockpcaai?hl=pt-br"
+        target="_blank"
+      >
         <LinkContainer>
           <SiGooglemybusiness />
           <div>
@@ -79,9 +88,11 @@ const RightContainer = () => {
       <FooterRight>
         <RightsReserved>© 2022-2023 All rights reserved</RightsReserved>
         <MadeBy>
-          Made by <a href="https://touzand.github.io/portafolio" target="_blank">
+          Made by{" "}
+          <a href="https://touzand.github.io/portafolio" target="_blank">
             Alan G. Alonso ( Touzand )
-          </a> a few seconds ago
+          </a>{" "}
+          a few seconds ago
         </MadeBy>
       </FooterRight>
     </Container>

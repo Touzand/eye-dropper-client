@@ -56,11 +56,10 @@ export const TopHeader = styled.div`
 export const Title = styled.h1`
   font-size: 3rem;
   margin: 2rem 0;
-  cursor:default;
+  cursor: default;
 
   span:hover {
     text-decoration: underline;
-
   }
 
   span:nth-child(1) {
@@ -104,7 +103,7 @@ export const Title = styled.h1`
 export const Quote = styled.span`
   font-weight: bold;
   color: var(--background-sub-2);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: var(--font-size-small);
 `;
 
@@ -117,7 +116,7 @@ const SidetoSide = keyframes`
 export const ChromeStoreButtonContainer = styled.div`
   display: flex;
   gap: 1rem;
-  padding-bottom:2rem;
+  padding-bottom: 2rem;
 
   div {
     display: flex;
@@ -127,6 +126,7 @@ export const ChromeStoreButtonContainer = styled.div`
 
     h2 {
       margin: 0;
+      font-weight: unset;
     }
 
     svg {
@@ -135,8 +135,12 @@ export const ChromeStoreButtonContainer = styled.div`
       height: 3rem;
       position: relative;
       animation: ${SidetoSide} linear 2s infinite;
-      animation-timing-function:cubic-bezier(.75,-0.5,0,1.75);
+      animation-timing-function: cubic-bezier(0.75, -0.5, 0, 1.75);
     }
+  }
+
+  @media (min-width: 800px) {
+    padding-bottom: 0rem;
   }
 `;
 
@@ -154,7 +158,7 @@ export const ChromeStoreButton = styled.a`
   transition: all 0.9s ease;
   border-radius: 1rem;
   //padding:0 1rem;
-  width:150px;
+  width: 150px;
 
   svg {
     width: 4rem;
@@ -164,12 +168,11 @@ export const ChromeStoreButton = styled.a`
 
   &:hover svg {
     transform: rotate(360deg);
-    filter:drop-shadow(0px 0px 30px #DDDDDD)
+    filter: drop-shadow(0px 0px 30px #dddddd);
   }
 `;
 
 export const RightsReserved = styled.p`
-
   a {
     text-decoration: none;
     color: var(--rainbow-orange);
@@ -194,15 +197,14 @@ export const MadeBy = styled.p`
 `;
 
 export const FooterLeft = styled.div`
-  margin-top:2rem;
-  //position: fixed;
-  //bottom: 1rem;
+  display: none;
 
-  p {
-    margin: 0;
-  }
+  @media (min-width: 800px) {
+  display: block;
+    margin-top: 2rem;
 
-  @media (max-width: 800px) {
-    display:none;
+    p {
+      margin: 0;
+    }
   }
 `;
