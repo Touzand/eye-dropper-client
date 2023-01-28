@@ -58,6 +58,9 @@ export const LinkGeneralContainer = styled.div`
 
   .sub-links {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 
     a {
       margin: 0;
@@ -67,9 +70,9 @@ export const LinkGeneralContainer = styled.div`
       }
     }
 
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    p {
+      font-weight: 100;
+    }
   }
 
   @media (min-width: 800px) {

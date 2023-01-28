@@ -4,13 +4,10 @@ import {
   Section,
   Subtitle,
   Title,
-  LinkContainer,
   LinkGeneralContainer,
   MadeBy,
 } from "./style";
-import { FiGithub } from "react-icons/fi";
-import { AiFillLinkedin } from "react-icons/ai";
-import { SiGooglemybusiness } from "react-icons/si";
+import LinkMasterContainer from "../../Pages/PrivacyPolicies/LinkMastercontainer";
 
 const PrivacyPolice = () => {
   return (
@@ -40,40 +37,11 @@ const PrivacyPolice = () => {
       </Section>
       <LinkGeneralContainer>
         <div className="sub-links">
-          <a href="https://github.com/Touzand/eye-dropper" target="_blank">
-            <LinkContainer>
-              <FiGithub />
-              <div>
-                <span>Github</span>
-                <p>Report issues and feature requests.</p>
-              </div>
-            </LinkContainer>
-          </a>
-          <a href="https://www.linkedin.com/in/alangalonso/" target="_blank">
-            <LinkContainer>
-              <AiFillLinkedin />
-              <div>
-                <span>LinkedIn</span>
-                <p>Follow the news.</p>
-              </div>
-            </LinkContainer>
-          </a>
-          <a
-            href="https://chrome.google.com/webstore/detail/min-eye-dropper/hinpodljbkkppgfdjcbjbhalockpcaai?hl=pt-br"
-            target="_blank"
-          >
-            <LinkContainer>
-              <SiGooglemybusiness />
-              <div>
-                <span>Chrome Web Store</span>
-                <p>Download and leave review.</p>
-              </div>
-            </LinkContainer>
-          </a>
+          <LinkMasterContainer/>
         </div>
       </LinkGeneralContainer>
       <MadeBy>
-        Made by{" "}
+       © 2022-2023 - Made by{" "}
         <a href="https://touzand.github.io/portafolio" target="_blank">
           Alan G. Alonso ( Touzand )
         </a>{" "}

@@ -1,6 +1,5 @@
 import {
   Container,
-  LinkContainer,
   P,
   PContainer,
   InstallIt,
@@ -8,12 +7,10 @@ import {
   MadeBy,
   FooterRight,
 } from "./style.js";
-import { FiGithub } from "react-icons/fi";
-import { AiFillLinkedin } from "react-icons/ai";
-import { SiGooglemybusiness } from "react-icons/si";
 import firstVidUrl from "../../../../public/assets/test-01.mp4";
 import secondVidUrl from "../../../../public/assets/test-02.mp4";
 import "../../../index.css";
+import LinkMasterContainer from "./LinkMastercontainer/index.jsx";
 
 window.onhashchange = function () {
   window.location.reload();
@@ -55,36 +52,7 @@ const RightContainer = () => {
       <InstallIt>
         So, if u need it, <span>install it</span>
       </InstallIt>
-      <a href="https://github.com/Touzand/eye-dropper" target="_blank">
-        <LinkContainer>
-          <FiGithub />
-          <div>
-            <span>Github</span>
-            <p>Report issues and feature requests.</p>
-          </div>
-        </LinkContainer>
-      </a>
-      <a href="https://www.linkedin.com/in/alangalonso/" target="_blank">
-        <LinkContainer>
-          <AiFillLinkedin />
-          <div>
-            <span>LinkedIn</span>
-            <p>Follow the news.</p>
-          </div>
-        </LinkContainer>
-      </a>
-      <a
-        href="https://chrome.google.com/webstore/detail/min-eye-dropper/hinpodljbkkppgfdjcbjbhalockpcaai?hl=pt-br"
-        target="_blank"
-      >
-        <LinkContainer>
-          <SiGooglemybusiness />
-          <div>
-            <span>Chrome Web Store</span>
-            <p>Download and leave review.</p>
-          </div>
-        </LinkContainer>
-      </a>
+      <LinkMasterContainer/>
       <FooterRight>
         <RightsReserved>© 2022-2023 All rights reserved</RightsReserved>
         <MadeBy>

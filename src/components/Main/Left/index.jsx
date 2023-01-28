@@ -2,7 +2,6 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { TiArrowLeftThick } from "react-icons/ti";
 import { SiGooglechrome } from "react-icons/si";
 import "../../../index.css";
-
 import {
   Container,
   TopHeader,
