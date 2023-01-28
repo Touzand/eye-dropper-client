@@ -14,6 +14,7 @@ const Header = () => {
           Min eye dropper
         </div>
         <div className="left buttons">
+          <a href="/eye-dropper-client/">Home</a>
           <Link to="/eye-dropper-client/privacy-policy">Privacy Police</Link>
           <Link className="not-found" to="">Help</Link>
           <Link className="not-found" to="">Change logs</Link>

@@ -44,7 +44,7 @@ export const HeaderContainer = styled.header`
     align-items:center;
     justify-content:space-around;
     gap: 0.5rem;
-    border-top:solid thin grey;
+    border-top:solid thin #223157;
     padding-top:1rem;
 
     .not-found {

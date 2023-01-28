@@ -56,7 +56,7 @@ const LeftContainer = () => {
         </ChromeStoreButton>
         <div>
           <TiArrowLeftThick />
-          <h2>Get Min Eye-dropper for Chrome</h2>
+          <h2>Get Min eye-dropper for Chrome</h2>
         </div>
       </ChromeStoreButtonContainer>
       <FooterLeft>

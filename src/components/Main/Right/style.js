@@ -19,7 +19,7 @@ export const P = styled.p`
 `;
 
 export const PContainer = styled.div`
-  border:solid thin #737373;
+  border:solid thin var(--background-color-2);
   border-radius:.5rem;
   margin:2rem 0;
 

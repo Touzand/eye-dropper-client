@@ -30,10 +30,10 @@ const RightContainer = () => {
     <Container className="flex-item">
       <video loop muted autoPlay id="first-vid" src=""></video>
       <PContainer>
-        <P>A great tool for web developers is MED. You may use Min eye-dropper to click on any pixel on your screen, even those outside of your browser, and obtain the HEX value for that particular pixel's color.</P>
+        <P>A great tool for web developers is <b>MED</b>. You may use Min eye-dropper to click on <b>any pixel on your screen</b>, even those <v>outside of your browser</v>, and obtain the <b>HEX value</b> for that particular pixel's color.</P>
 
         <P>
-          Your browser's localStorage will immediately store the colors you choose. so that you can go between windows or tabs while maintaining access to your color pallet (with the previously selected colors)
+          Your browser's <b>localStorage</b> will immediately store the colors you choose. so that you can go between windows or tabs while maintaining access to <b>your color pallet</b> (with the previously selected colors)
         </P>
 
       </PContainer>
@@ -79,8 +79,7 @@ const RightContainer = () => {
       <FooterRight>
         <RightsReserved>© 2022-2023 All rights reserved</RightsReserved>
         <MadeBy>
-          Made by
-          <a href="https://touzand.github.io/portafolio" target="_blank">
+          Made by <a href="https://touzand.github.io/portafolio" target="_blank">
             Alan G. Alonso ( Touzand )
           </a> a few seconds ago
         </MadeBy>

@@ -154,7 +154,7 @@ export const ChromeStoreButton = styled.a`
   transition: all 0.9s ease;
   border-radius: 1rem;
   //padding:0 1rem;
-  width:200px;
+  width:150px;
 
   svg {
     width: 4rem;

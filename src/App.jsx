@@ -1,6 +1,6 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import MainContainer from "./components/Main";
-import PrivacyPolice from "./components/PrivacyPolicies";
+import PrivacyPolice from "./components/Pages/PrivacyPolicies";
 import Header from "./components/Header";
 
 const App = () => {

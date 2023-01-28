@@ -34,6 +34,7 @@ export const Title = styled.h1`
 export const Section = styled.div`
   text-align: left;
   width: min(500px, 100%);
+  margin-bottom: 2rem;
 `;
 
 export const Subtitle = styled.h2`
@@ -45,6 +46,7 @@ export const Subtitle = styled.h2`
 export const P = styled.p`
   margin: 0.5rem 0;
   font-size: 17px;
+  line-height: 25px;
 `;
 
 export const LinkGeneralContainer = styled.div`
@@ -55,15 +57,19 @@ export const LinkGeneralContainer = styled.div`
   align-items: center;
 
   .sub-links {
-    padding:1rem;
+    padding: 1rem;
 
-    a{
-    margin:0;
-  }
+    a {
+      margin: 0;
 
-    display:flex;
-    flex-direction:column;
-    gap:.5rem;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
   @media (min-width: 800px) {
@@ -76,7 +82,7 @@ export const LinkGeneralContainer = styled.div`
 
     .sub-links {
       display: flex;
-      flex-direction:row;
+      flex-direction: row;
       gap: 1rem;
     }
   }
@@ -94,9 +100,11 @@ export const LinkContainer = styled.div`
   width: 300px;
   height: 100%;
   //margin-bottom: 1rem;
+  //text-decoration:none;
 
   &:hover {
     color: var(--rainbow-orange);
+    text-decoration: none;
   }
 
   div {
@@ -120,7 +128,7 @@ export const LinkContainer = styled.div`
 `;
 
 export const MadeBy = styled.p`
-  margin:1rem;
+  margin: 1rem;
 
   a {
     text-decoration: none;
