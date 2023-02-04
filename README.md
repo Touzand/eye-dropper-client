@@ -11,4 +11,4 @@ This landign-page was made using React (react-router-dom) and other tools like `
 
 Soon i will add the ' help ' section and the ' change logs ' section too so u will be able to see what happening around this extension. like updates, releases or new features.
 
-Because of the extension ( Min eye dropper ) is really simple and minimal, the idea was made the landing-page the same way. just simple and minimal so i decide to make it with the same structure of my personal portafolio. using almost the same code. but this time i decide to play more with the colors, shapes and more
+  Because of the extension ( [ Min eye dropper ](https://chrome.google.com/webstore/detail/min-eye-dropper/hinpodljbkkppgfdjcbjbhalockpcaai) ) is really simple and minimal, the idea was made the landing-page the same way. just simple and minimal so i decide to make it with the same structure of my personal [ portafolio ](https://touzand.github.io/portafolio). using almost the same code. but this time i decide to play more with the colors, shapes and more
